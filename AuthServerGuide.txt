@@ -1,0 +1,20 @@
+1.Create new folder
+2.Go inside new folder
+3.run npm init and complete the data that is asking for
+  it will create a package.json file
+4.install nodemon from https://www.npmjs.com/package/nodemon
+npm install -g nodemon
+5.run: nodemon index.js
+
+6.update scripts from package.json 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+
+and now we can run: npm run dev 
+or npm start
+
+7.npm i bcryptjs cors dotenv express express-validator jsonwebtoken mongoose
+
